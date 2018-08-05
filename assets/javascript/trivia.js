@@ -68,7 +68,7 @@ $(document).ready(function() {
     }
     
     function generateQuestions() {
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p><p class='text-center'>" + "<br>" + qimageArray[questionCounter] +"<br>"+ questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " + answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p><p class='text-center'>" + qimageArray[questionCounter] + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " + answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
         $("#mainArea").html(gameHTML);
     }
     
@@ -128,14 +128,14 @@ $(document).ready(function() {
 
 
     var qimageArray = new Array(); 
-    qimageArray[0] = "<img class='center-block' src='/assets/images/juicyjay.png>";
-    qimageArray[1] = "<img class='center-block' src='/assets/images/dryhopping.png'>"; 
-    qimageArray[2] = "<img class='center-block' src='/assets/images/circusboyanswer.png'>"; 
-    qimageArray[3] = "<img class='center-block' src='/assets/images/somethinglikethatbefore-01.png>";  
-    qimageArray[4] = "<img class='center-block' src='/assets/images/gosequestion.png'>"; 
-    qimageArray[5] = "<img class='center-block' src='/assets/images/coffeehop.jpg'>"; 
-    qimageArray[6] = "<img class='center-block' src='/assets/images/kbs.jpg'>"; 
-    qimageArray[7] = "<img class='center-block' src='/assets/images/farmhousewin.jpg'>"; 
+    qimageArray[0] = "<img class='center-block' src='../assets/images/juicyjay.png>";
+    qimageArray[1] = "<img class='center-block' src='../assets/images/dryhopping.png'>"; 
+    qimageArray[2] = "<img class='center-block' src='../assets/images/circusboyanswer.png'>"; 
+    qimageArray[3] = "<img class='center-block' src='../assets/images/somethinglikethatbefore-01.png>";  
+    qimageArray[4] = "<img class='center-block' src='../assets/images/gosequestion.png'>"; 
+    qimageArray[5] = "<img class='center-block' src='../assets/images/coffeehop.jpg'>"; 
+    qimageArray[6] = "<img class='center-block' src='../assets/images/kbs.jpg'>"; 
+    qimageArray[7] = "<img class='center-block' src='../assets/images/farmhousewin.jpg'>"; 
 
     var answerArray = [
         ["Heist", "Legion", "Sycamore", "Bird Song"], 
