@@ -47,7 +47,7 @@ $(document).ready(function() {
     
     function timeoutLoss() {
         unansweredTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='/assets/images/nope.png'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='./images/nope.png'>";
         $("#mainArea").html(gameHTML);
         setTimeout(wait, 4500);  //  change to 4000 or other amount
     }
@@ -62,7 +62,7 @@ $(document).ready(function() {
     
     function generateLoss() {
         incorrectTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='/assets/images/nope.png'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='./images/nope.png'>";
         $("#mainArea").html(gameHTML);
         setTimeout(wait, 4500); //  change to 4000 or other amount
     }
@@ -137,14 +137,14 @@ $(document).ready(function() {
         ["A hop-heavy beer with bitter, floral, earthy, citrusy, piney, and fruity flavors.","A dark beer that includes roasted malt or roasted barley, hops, water and yeast.","Does anyone actually know? Sometimes they are good, sometimes they are bad. Most times they are funky. Always taste first.","A beer which has an intentionally acidic, tart or sour taste."], ];
 
     var imageArray = new Array(); 
-    imageArray[0] = "<img class='center-block' src='/assets/images/legionlogo.png'>";
-    imageArray[1] = "<img class='center-block' src='/assets/images/dryhopping.png'>"; 
-    imageArray[2] = "<img class='center-block' src='/assets/images/magichat.png'>"; 
-    imageArray[3] = "<img class='center-block' src='/assets/images/somethinglikethatbefore-01.png>";  
-    imageArray[4] = "<img class='center-block' src='/assets/images/goesuganswer.png'>"; 
-    imageArray[5] = "<img class='center-block' src='/assets/images/coffeestout.jpg'>"; 
-    imageArray[6] = "<img class='center-block' src='/assets/images/bourbons2.png'>"; 
-    imageArray[7] = "<img class='center-block' src='/assets/images/farmhouseale.png'>"; 
+    imageArray[0] = "<img class='center-block' src='/images/legionlogo.png'>";
+    imageArray[1] = "<img class='center-block' src='./images/dryhopping.png'>"; 
+    imageArray[2] = "<img class='center-block' src='./images/magichat.png'>"; 
+    imageArray[3] = "<img class='center-block' src='./images/somethinglikethatbefore-01.png>";  
+    imageArray[4] = "<img class='center-block' src='./images/goesuganswer.png'>"; 
+    imageArray[5] = "<img class='center-block' src='./images/coffeestout.jpg'>"; 
+    imageArray[6] = "<img class='center-block' src='./images/bourbons2.png'>"; 
+    imageArray[7] = "<img class='center-block' src='./images/farmhouseale.png'>"; 
 
     var correctAnswers = 
     [ "B. Legion", 
