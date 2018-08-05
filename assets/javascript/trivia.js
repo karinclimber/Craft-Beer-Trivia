@@ -128,14 +128,14 @@ $(document).ready(function() {
 
 
     var qimageArray = new Array(); 
-    qimageArray[0] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/app/assets/images/juicyjay.png'>";
-    qimageArray[1] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/beerapp/assets/images/dryhopping.png'>"; 
-    qimageArray[2] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/beerapp/assets/images/circusboyanswer.png'>"; 
-    qimageArray[3] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/beerapp/assets/images/somethinglikethatbefore-01.png>";  
-    qimageArray[4] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/beerapp/assets/images/gosequestion.png'>"; 
-    qimageArray[5] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/beerapp/assets/images/coffeehop.jpg'>"; 
-    qimageArray[6] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/beerapp/assets/images/kbs.jpg'>"; 
-    qimageArray[7] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/beer/beerapp/assets/images/farmhousewin.jpg'>"; 
+    qimageArray[0] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/juicyjay.png'>";
+    qimageArray[1] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/dryhopping.png'>"; 
+    qimageArray[2] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/circusboyanswer.png'>"; 
+    qimageArray[3] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/somethinglikethatbefore-01.png>";  
+    qimageArray[4] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/gosequestion.png'>"; 
+    qimageArray[5] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/coffeehop.jpg'>"; 
+    qimageArray[6] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/kbs.jpg'>"; 
+    qimageArray[7] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/farmhousewin.jpg'>"; 
 
     var answerArray = [
         ["Heist", "Legion", "Sycamore", "Bird Song"], 
