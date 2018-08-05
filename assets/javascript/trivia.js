@@ -128,14 +128,14 @@ $(document).ready(function() {
 
 
     var qimageArray = new Array(); 
-    qimageArray[0] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/juicyjay.png'>";
-    qimageArray[1] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/dryhopping.png'>"; 
-    qimageArray[2] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/circusboyanswer.png'>"; 
-    qimageArray[3] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/somethinglikethatbefore-01.png>";  
-    qimageArray[4] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/gosequestion.png'>"; 
-    qimageArray[5] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/coffeehop.jpg'>"; 
-    qimageArray[6] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/kbs.jpg'>"; 
-    qimageArray[7] = "<img class='center-block' src='/Users/karinhermann/Desktop/Craft-Beer-Trivia/assets/images/farmhousewin.jpg'>"; 
+    qimageArray[0] = "<img class='center-block' src='../images/juicyjay.png'>";
+    qimageArray[1] = "<img class='center-block' src='../images/dryhopping.png'>"; 
+    qimageArray[2] = "<img class='center-block' src='../images/circusboyanswer.png'>"; 
+    qimageArray[3] = "<img class='center-block' src='../images/somethinglikethatbefore-01.png>";  
+    qimageArray[4] = "<img class='center-block' src='../images/gosequestion.png'>"; 
+    qimageArray[5] = "<img class='center-block' src='../images/coffeehop.jpg'>"; 
+    qimageArray[6] = "<img class='center-block' src='../images/kbs.jpg'>"; 
+    qimageArray[7] = "<img class='center-block' src='../images/farmhousewin.jpg'>"; 
 
     var answerArray = [
         ["Heist", "Legion", "Sycamore", "Bird Song"], 
@@ -148,14 +148,14 @@ $(document).ready(function() {
         ["A hop-heavy beer with bitter, floral, earthy, citrusy, piney, and fruity flavors.","A dark beer that includes roasted malt or roasted barley, hops, water and yeast.","Does anyone actually know? Sometimes they are good, sometimes they are bad. Most times they are funky. Always taste first.","A beer which has an intentionally acidic, tart or sour taste."], ];
 
     var imageArray = new Array(); 
-    imageArray[0] = "<img class='center-block' src='/assets/images/legionlogo.png'>";
-    imageArray[1] = "<img class='center-block' src='/assets/images/dryhopping.png'>"; 
-    imageArray[2] = "<img class='center-block' src='/assets/images/magichat.png'>"; 
-    imageArray[3] = "<img class='center-block' src='/assets/images/charlestown.jpg>";  
-    imageArray[4] = "<img class='center-block' src='/assets/images/goesuganswer.png'>"; 
-    imageArray[5] = "<img class='center-block' src='/assets/images/coffeestout.jpg'>"; 
-    imageArray[6] = "<img class='center-block' src='/assets/images/bourbons2.png'>"; 
-    imageArray[7] = "<img class='center-block' src='/assets/images/farmhouseale.png'>"; 
+    imageArray[0] = "<img class='center-block' src='../images/legionlogo.png'>";
+    imageArray[1] = "<img class='center-block' src='../images/dryhopping.png'>"; 
+    imageArray[2] = "<img class='center-block' src='../images/magichat.png'>"; 
+    imageArray[3] = "<img class='center-block' src='../images/charlestown.jpg>";  
+    imageArray[4] = "<img class='center-block' src='../images/goesuganswer.png'>"; 
+    imageArray[5] = "<img class='center-block' src='../images/coffeestout.jpg'>"; 
+    imageArray[6] = "<img class='center-block' src='../images/bourbons2.png'>"; 
+    imageArray[7] = "<img class='center-block' src='../images/farmhouseale.png'>"; 
 
     var correctAnswers = 
     [ "B. Legion", 
