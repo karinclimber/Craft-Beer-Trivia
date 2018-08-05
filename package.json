@@ -1,0 +1,19 @@
+{
+  "name": "beerapp",
+  "version": "1.0.0",
+  "description": "beer app",
+  "main": "index.js",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karinclimber/Craft-Beer-Trivia.git"
+  },
+  "author": "kari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karinclimber/Craft-Beer-Trivia/issues"
+  },
+  "homepage": "https://github.com/karinclimber/Craft-Beer-Trivia#readme"
+}
