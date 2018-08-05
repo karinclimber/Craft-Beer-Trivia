@@ -68,7 +68,7 @@ $(document).ready(function() {
     }
     
     function generateQuestions() {
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " + answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p><p class='text-center'>" + questionArray[questionCounter] + "<br>" + qimageArray[questionCounter] + "</p><p class='first-answer answer'>A. " + answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
         $("#mainArea").html(gameHTML);
     }
     
@@ -126,6 +126,17 @@ $(document).ready(function() {
     "Aging a stout in a bourbon barrel beer brings the taste to an all new level. One beer stands out among the rest. Do you know what it is?", 
     "What exactly is a 'farmhouse ale'?" ];
 
+
+    var qimageArray = new Array(); 
+    qimageArray[0] = "<img class='center-block' src='/assets/images/juicyjay.png>";
+    qimageArray[1] = "<img class='center-block' src='/assets/images/dryhopping.png'>"; 
+    qimageArray[2] = "<img class='center-block' src='/assets/images/circusboyanswer.png'>"; 
+    qimageArray[3] = "<img class='center-block' src='/assets/images/somethinglikethatbefore-01.png>";  
+    qimageArray[4] = "<img class='center-block' src='/assets/images/gosequestion.png'>"; 
+    qimageArray[5] = "<img class='center-block' src='/assets/images/coffeehop.jpg'>"; 
+    qimageArray[6] = "<img class='center-block' src='/assets/images/kbs.jpg'>"; 
+    qimageArray[7] = "<img class='center-block' src='/assets/images/farmhousewin.jpg'>"; 
+
     var answerArray = [
         ["Heist", "Legion", "Sycamore", "Bird Song"], 
         ["Fresh Hopping","Wet Hopping","Sweet Hopping","Dry Hopping"], 
@@ -137,14 +148,14 @@ $(document).ready(function() {
         ["A hop-heavy beer with bitter, floral, earthy, citrusy, piney, and fruity flavors.","A dark beer that includes roasted malt or roasted barley, hops, water and yeast.","Does anyone actually know? Sometimes they are good, sometimes they are bad. Most times they are funky. Always taste first.","A beer which has an intentionally acidic, tart or sour taste."], ];
 
     var imageArray = new Array(); 
-    imageArray[0] = "<img class='center-block' src='/images/legionlogo.png'>";
-    imageArray[1] = "<img class='center-block' src='./images/dryhopping.png'>"; 
-    imageArray[2] = "<img class='center-block' src='./images/magichat.png'>"; 
-    imageArray[3] = "<img class='center-block' src='./images/somethinglikethatbefore-01.png>";  
-    imageArray[4] = "<img class='center-block' src='./images/goesuganswer.png'>"; 
-    imageArray[5] = "<img class='center-block' src='./images/coffeestout.jpg'>"; 
-    imageArray[6] = "<img class='center-block' src='./images/bourbons2.png'>"; 
-    imageArray[7] = "<img class='center-block' src='./images/farmhouseale.png'>"; 
+    imageArray[0] = "<img class='center-block' src='/assets/images/legionlogo.png'>";
+    imageArray[1] = "<img class='center-block' src='/assets/images/dryhopping.png'>"; 
+    imageArray[2] = "<img class='center-block' src='/assets/images/magichat.png'>"; 
+    imageArray[3] = "<img class='center-block' src='/assets/images/charlestown.jpg>";  
+    imageArray[4] = "<img class='center-block' src='/assets/images/goesuganswer.png'>"; 
+    imageArray[5] = "<img class='center-block' src='/assets/images/coffeestout.jpg'>"; 
+    imageArray[6] = "<img class='center-block' src='/assets/images/bourbons2.png'>"; 
+    imageArray[7] = "<img class='center-block' src='/assets/images/farmhouseale.png'>"; 
 
     var correctAnswers = 
     [ "B. Legion", 
