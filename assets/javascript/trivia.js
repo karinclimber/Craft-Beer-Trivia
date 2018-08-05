@@ -12,7 +12,7 @@ $(document).ready(function() {
     
     $("#mainArea").on("click", ".start-button", function(event){
         event.preventDefault();  // added line to test issue on GitHub Viewer
-        clickSound.play();
+        // clickSound.play();
             $('.jumbotron').hide();
             
         generateQuestions();
@@ -23,7 +23,7 @@ $(document).ready(function() {
     
     $("body").on("click", ".answer", function(event){
         //answeredQuestion = true;
-        clickSound.play();
+        // clickSound.play();
         selectedAnswer = $(this).text();
         if(selectedAnswer === correctAnswers[questionCounter]) {
             //alert("correct");
@@ -39,7 +39,7 @@ $(document).ready(function() {
     }); // Close .answer click
     
     $("body").on("click", ".reset-button", function(event){
-        clickSound.play();
+        // clickSound.play();
         resetGame();
     }); // Closes reset-button click
     
@@ -47,7 +47,7 @@ $(document).ready(function() {
     
     function timeoutLoss() {
         unansweredTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='/Users/karinhermann/Desktop/code/CodingBootcamp/2.2External CSS Styles/Trivia_Game_Advanced/assets/images/x.gif'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='/assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
         setTimeout(wait, 4500);  //  change to 4000 or other amount
     }
@@ -62,7 +62,7 @@ $(document).ready(function() {
     
     function generateLoss() {
         incorrectTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='/Users/karinhermann/Desktop/code/CodingBootcamp/2.2External CSS Styles/Trivia_Game_Advanced/assets/images/x.gif'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='/assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
         setTimeout(wait, 4500); //  change to 4000 or other amount
     }
