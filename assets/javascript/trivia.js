@@ -105,7 +105,7 @@ $(document).ready(function() {
     function finalScreen() {
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>All done, here's how you did!" + "</p>" + "<p class='summary-correct'>Correct Answers: " + correctTally + "</p>" + "<p>Wrong Answers: " + incorrectTally + "</p>" + "<p>Unanswered: " + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-warning btn-md btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
       
-        $("#mainArea.questions").html(gameHTML);
+        $("#questions").html(gameHTML);
         if (correctTally > 4) {
             $("#pics").prepend('<img id="squad" src="assets/images/squad.png">');
         }
