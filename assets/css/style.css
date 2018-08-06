@@ -77,10 +77,11 @@ width:100% !important;
   }
   .quest-img {
     width:75%;
-    margin-top: 30px;
+    height:auto;
+    margin-top: 10px;
   }
   .img-wrong {
-    margin-top: 40px;
+    margin-top: 10px;
     width:75%;
     
   }
