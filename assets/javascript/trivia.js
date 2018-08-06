@@ -142,7 +142,7 @@ $(document).ready(function() {
     qimageArray[1] = "<img class='center-block' src='assets/images/dryhopping.jpg'>"; 
     qimageArray[2] = "<img class='center-block' src='assets/images/magichat.png'>"; 
     qimageArray[3] = "<img class='center-block' src='assets/images/somethinglikethatbefore-01.png'>";  
-    qimageArray[4] = "<img class='center-block' src='assets/images/gosequestion.png'>"; 
+    qimageArray[4] = "<img class='center-block' src='assets/images/gose5.png'>"; 
     qimageArray[5] = "<img class='center-block' src='assets/images/coffeehop.jpg'>"; 
     qimageArray[6] = "<img class='center-block' src='assets/images/bourbons2.png'>"; 
     qimageArray[7] = "<img class='center-block' src='assets/images/farmhouseale.png'>"; 
@@ -155,11 +155,11 @@ $(document).ready(function() {
         ["Rhymes with rose", "Rhymes with rosé", "Like goes-uh", "Like goo-zé"], 
         ["Cold","Hot","Warm","It doesn't matter."], 
         ["Wild Turkey Bourbon Barrel Stout", "CBS", "Dragon's Milk", "KBS"], 
-        ["A hop-heavy beer with bitter, floral, earthy, citrusy, piney, and fruity flavors.","A dark beer that includes roasted malt or roasted barley, hops, water and yeast.","Does anyone actually know? Sometimes they are good, sometimes they are bad. Most times they are funky. Always taste first.","A beer which has an intentionally acidic, tart or sour taste."], ];
+        ["A hop-heavy beer with bitter, floral, earthy, citrusy, piney, and fruity flavors.","A dark beer that includes roasted malt or roasted barley, hops, water and yeast.","Does anyone actually know?","A beer which has an intentionally acidic, tart or sour taste."], ];
 
     var imageArray = new Array(); 
     imageArray[0] = "<img class='center-block' src='assets/images/legionlogo.png'>";
-    imageArray[1] = "<img class='center-block' src='assets/images/dryhopping.png'>"; 
+    imageArray[1] = "<img class='center-block' src='assets/images/dryhoppingwin.png'>"; 
     imageArray[2] = "<img class='center-block' src='assets/images/circusboyanswer.png'>"; 
     imageArray[3] = "<img class='center-block' src='assets/images/charlestown.jpg'>";  
     imageArray[4] = "<img class='center-block' src='assets/images/goesuganswer.png'>"; 
