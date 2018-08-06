@@ -132,12 +132,12 @@ $(document).ready(function() {
     var qimageArray = new Array(); 
     qimageArray[0] = "<img class='center-block' src='assets/images/juicyjay.png'>";
     qimageArray[1] = "<img class='center-block' src='assets/images/dryhopping.png'>"; 
-    qimageArray[2] = "<img class='center-block' src='assets/images/circusboyanswer.png'>"; 
+    qimageArray[2] = "<img class='center-block' src='assets/images/magichat.png'>"; 
     qimageArray[3] = "<img class='center-block' src='assets/images/somethinglikethatbefore-01.png>";  
     qimageArray[4] = "<img class='center-block' src='assets/images/gosequestion.png'>"; 
     qimageArray[5] = "<img class='center-block' src='assets/images/coffeehop.jpg'>"; 
-    qimageArray[6] = "<img class='center-block' src='assets/images/kbs.jpg'>"; 
-    qimageArray[7] = "<img class='center-block' src='assets/images/farmhousewin.jpg'>"; 
+    qimageArray[6] = "<img class='center-block' src='assets/images/bourbons2.png'>"; 
+    qimageArray[7] = "<img class='center-block' src='assets/images/farmhouseale.png'>"; 
 
     var answerArray = [
         ["Heist", "Legion", "Sycamore", "Bird Song"], 
@@ -152,12 +152,12 @@ $(document).ready(function() {
     var imageArray = new Array(); 
     imageArray[0] = "<img class='center-block' src='assets/images/legionlogo.png'>";
     imageArray[1] = "<img class='center-block' src='assets/images/dryhopping.png'>"; 
-    imageArray[2] = "<img class='center-block' src='assets/images/magichat.png'>"; 
+    imageArray[2] = "<img class='center-block' src='assets/images/circusboyanswer.png'>"; 
     imageArray[3] = "<img class='center-block' src='assets/images/charlestown.jpg>";  
     imageArray[4] = "<img class='center-block' src='assets/images/goesuganswer.png'>"; 
     imageArray[5] = "<img class='center-block' src='assets/images/coffeestout.jpg'>"; 
-    imageArray[6] = "<img class='center-block' src='assets/images/bourbons2.png'>"; 
-    imageArray[7] = "<img class='center-block' src='assets/images/farmhouseale.png'>"; 
+    imageArray[6] = "<img class='center-block' src='assets/images/kbs.jpg'>"; 
+    imageArray[7] = "<img class='center-block' src='assets/images/farmhouswin.jpg'>"; 
 
     var correctAnswers = 
     [ "B. Legion", 
