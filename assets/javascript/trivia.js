@@ -112,7 +112,7 @@ $(document).ready(function() {
         else {
             $("#mainArea").append('<h1>Want to play again?</h1>');
     }
-    
+} 
     function resetGame() {
         questionCounter = 0;
         correctTally = 0;
