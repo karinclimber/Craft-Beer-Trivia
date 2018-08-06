@@ -68,8 +68,8 @@ $(document).ready(function() {
     }
     
     function generateQuestions() {
-       qimageCard = "<p class= 'quest-img'>" + qimageArray[questionCounter] + "</p>";
-        $("#mainArea").prepend(qimageCard);
+       
+        $("#mainArea").append("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>45</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " +answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
         $("#mainArea").html(gameHTML);
         
@@ -88,8 +88,8 @@ $(document).ready(function() {
     }
     
     function timerWrapper() {
-        theClock = setInterval(fourtySeconds, 1000);
-        function fourtySeconds() {
+        theClock = setInterval(thirtySeconds, 1000);
+        function thirtySeconds() {
             if (counter === 0) {
                 clearInterval(theClock);
                 timeoutLoss();
@@ -165,7 +165,7 @@ $(document).ready(function() {
     imageArray[3] = "<img class='center-block' src='assets/images/charlestown.jpg'>";  
     imageArray[4] = "<img class='center-block' src='assets/images/goesuganswer.png'>"; 
     imageArray[5] = "<img class='center-block' src='assets/images/coffeestout.jpg'>"; 
-    imageArray[6] = "<img class='center-block' src='assets/images/kbs.jpg'>"; 
+    imageArray[6] = "<img class='center-block' src='assets/images/kbs2.jpg'>"; 
     imageArray[7] = "<img class='center-block' src='assets/images/farmhouswin.jpg'>"; 
 
     var correctAnswers = 
