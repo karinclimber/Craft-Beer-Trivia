@@ -12,8 +12,8 @@
     width: 85%;
   }
   h1 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 700;
   }
   .btn {
     width:275px;
@@ -35,22 +35,25 @@
     height: 500px;
   }
   .timer-p {
-    margin-top: 20px;
+    margin-top: 24px;
   }
   
   .answer:hover {
-    background: rgba(250, 240, 99, 0.99);
+    background:pink;
   }
 
   p {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 500;
   }
   .answer {
     /* padding-top: 7px; */
     height: 55px;
     color: black;
-    padding: 15px;
+    padding-top: 15px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 15px;
     background-color: white;
     border-radius: 4px;
     opacity: .7;

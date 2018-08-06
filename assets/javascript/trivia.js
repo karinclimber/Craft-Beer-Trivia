@@ -71,8 +71,9 @@ $(document).ready(function() {
        
         
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " +answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
-        $("#mainArea").html(gameHTML);
         $("#mainArea").append("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
+        $("#mainArea").html(gameHTML);
+        
     }
     
     function wait() {
@@ -102,15 +103,14 @@ $(document).ready(function() {
     }
     
     function finalScreen() {
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>All done, here's how you did!" + "</p>" + "<p class='summary-correct'>Correct Answers: " + correctTally + "</p>" + "<p>Wrong Answers: " + incorrectTally + "</p>" + "<p>Unanswered: " + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-warning btn-md btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
         if (correctTally > 4) {
             $("#mainArea").append('<img src="assets/images/squad.png">');
         }
         else {
-            $("#mainArea").append('<h2>Want to play again?</h2>');
+            $("#mainArea").append('<h1>Want to play again?</h1>');
 
         }
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>All done, here's how you did!" + "</p>" + "<p class='summary-correct'>Correct Answers: " + correctTally + "</p>" + "<p>Wrong Answers: " + incorrectTally + "</p>" + "<p>Unanswered: " + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-warning btn-md btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
-       
         $("#mainArea").html(gameHTML);
     }
     
