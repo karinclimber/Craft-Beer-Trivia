@@ -48,14 +48,14 @@ $(document).ready(function() {
     function timeoutLoss() {
         unansweredTally++;
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/nope.png'>";
-        $("#mainArea.questions").html(gameHTML);
+        $("#questions").html(gameHTML);
         setTimeout(wait, 3000);  //  change to 4000 or other amount
     }
     
     function generateWin() {
         correctTally++;
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Correct! The answer is: " + correctAnswers[questionCounter] + "</p>" + imageArray[questionCounter];
-        $("#mainArea.questions").html(gameHTML);
+        $("#questions").html(gameHTML);
         // $("#mainArea").append(imageArray[questionCounter])
         setTimeout(wait, 3000);  //  change to 4000 or other amount
     }
@@ -63,7 +63,7 @@ $(document).ready(function() {
     function generateLoss() {
         incorrectTally++;
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/nope.png'>";
-        $("#mainArea.questions").html(gameHTML);
+        $("#questions").html(gameHTML);
         setTimeout(wait, 3000); //  change to 4000 or other amount
     }
     
@@ -72,8 +72,8 @@ $(document).ready(function() {
         
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " +answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
         
-        $("#mainArea.questions").html(gameHTML);
-        $("#mainArea.pics").append("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
+        $("#questions").html(gameHTML);
+        $("#pics").append("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
     }
     
     function wait() {
@@ -107,10 +107,10 @@ $(document).ready(function() {
       
         $("#mainArea.questions").html(gameHTML);
         if (correctTally > 4) {
-            $("#mainArea.pics").prepend('<img id="squad" src="assets/images/squad.png">');
+            $("#pics").prepend('<img id="squad" src="assets/images/squad.png">');
         }
         else {
-            $("#mainArea.pics").append('<h1>Want to play again?</h1>');
+            $("#pics").append('<h1>Want to play again?</h1>');
     }  
 } 
     function resetGame() {
