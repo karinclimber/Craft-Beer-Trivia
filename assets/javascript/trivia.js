@@ -49,7 +49,7 @@ $(document).ready(function() {
         unansweredTally++;
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
-        setTimeout(wait, 4500);  //  change to 4000 or other amount
+        setTimeout(wait, 3000);  //  change to 4000 or other amount
     }
     
     function generateWin() {
@@ -57,29 +57,29 @@ $(document).ready(function() {
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Correct! The answer is: " + correctAnswers[questionCounter] + "</p>" + imageArray[questionCounter];
         $("#mainArea").html(gameHTML);
         // $("#mainArea").append(imageArray[questionCounter])
-        setTimeout(wait, 4500);  //  change to 4000 or other amount
+        setTimeout(wait, 3000);  //  change to 4000 or other amount
     }
     
     function generateLoss() {
         incorrectTally++;
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
-        setTimeout(wait, 4500); //  change to 4000 or other amount
+        setTimeout(wait, 3000); //  change to 4000 or other amount
     }
     
     function generateQuestions() {
        
-        $("#mainArea").append("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>45</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " +answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
-        $("#mainArea").html(gameHTML);
         
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " +answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
+        $("#mainArea").html(gameHTML);
+        $("#mainArea").append("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
     }
     
     function wait() {
         if (questionCounter < 7) {
         questionCounter++;
         generateQuestions();
-        counter = 45;
+        counter = 30;
         timerWrapper();
         }
         else {
@@ -119,14 +119,14 @@ $(document).ready(function() {
         correctTally = 0;
         incorrectTally = 0;
         unansweredTally = 0;
-        counter = 45;
+        counter = 30;
         generateQuestions();
         timerWrapper();
     }
     
     var openScreen;
     var gameHTML;
-    var counter = 45;
+    var counter = 30;
     var questionArray = 
     [ "At which Charlotte, North Carolina brewery would you find this light and refreshing IPA?", 
     "When a brewer steeps hops in fermenting beer instead of adding them while the liquid is boiling, this creates a strong aroma and brings out the sweet and fruity notes in the hops. What is this process called?", 
