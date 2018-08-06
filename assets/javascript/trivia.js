@@ -128,7 +128,7 @@ $(document).ready(function() {
 
 
     var qimageArray = new Array(); 
-    qimageArray[0] = "<img class='center-block' src='../assets/images/juicyjay.png'>";
+    qimageArray[0] = "<img class='center-block' src='https://github.com/karinclimber/Craft-Beer-Trivia/blob/master/assets/images/juicyjay.png'>";
     qimageArray[1] = "<img class='center-block' src='../assets/images/dryhopping.png'>"; 
     qimageArray[2] = "<img class='center-block' src='../assets/images/circusboyanswer.png'>"; 
     qimageArray[3] = "<img class='center-block' src='../assets/images/somethinglikethatbefore-01.png>";  
