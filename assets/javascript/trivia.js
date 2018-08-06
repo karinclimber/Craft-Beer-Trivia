@@ -68,7 +68,7 @@ $(document).ready(function() {
     }
     
     function generateQuestions() {
-        $("#mainArea").prepend(qimageArray[questionCounter])
+        $("#mainArea").append(qimageArray[questionCounter])
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>45</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " +answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
         $("#mainArea").html(gameHTML);
         
@@ -131,9 +131,9 @@ $(document).ready(function() {
 
     var qimageArray = new Array(); 
     qimageArray[0] = "<img class='center-block' src='assets/images/juicyjay.png'>";
-    qimageArray[1] = "<img class='center-block' src='assets/images/dryhopping.png'>"; 
+    qimageArray[1] = "<img class='center-block' src='assets/images/dryhopping.jpg'>"; 
     qimageArray[2] = "<img class='center-block' src='assets/images/magichat.png'>"; 
-    qimageArray[3] = "<img class='center-block' src='assets/images/somethinglikethatbefore-01.png>";  
+    qimageArray[3] = "<img class='center-block' src='assets/images/somethinglikethatbefore-01.png'>";  
     qimageArray[4] = "<img class='center-block' src='assets/images/gosequestion.png'>"; 
     qimageArray[5] = "<img class='center-block' src='assets/images/coffeehop.jpg'>"; 
     qimageArray[6] = "<img class='center-block' src='assets/images/bourbons2.png'>"; 
@@ -153,7 +153,7 @@ $(document).ready(function() {
     imageArray[0] = "<img class='center-block' src='assets/images/legionlogo.png'>";
     imageArray[1] = "<img class='center-block' src='assets/images/dryhopping.png'>"; 
     imageArray[2] = "<img class='center-block' src='assets/images/circusboyanswer.png'>"; 
-    imageArray[3] = "<img class='center-block' src='assets/images/charlestown.jpg>";  
+    imageArray[3] = "<img class='center-block' src='assets/images/charlestown.jpg'>";  
     imageArray[4] = "<img class='center-block' src='assets/images/goesuganswer.png'>"; 
     imageArray[5] = "<img class='center-block' src='assets/images/coffeestout.jpg'>"; 
     imageArray[6] = "<img class='center-block' src='assets/images/kbs.jpg'>"; 
