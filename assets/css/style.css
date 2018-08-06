@@ -48,12 +48,12 @@
   }
   .answer {
     /* padding-top: 7px; */
-    height: 55px;
+    height: 85px;
     color: black;
-    padding-top: 15px;
-    padding-left:10px;
+    padding-top: 25px;
+    padding-left:15px;
     padding-right:10px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     background-color: white;
     border-radius: 4px;
     opacity: .7;
@@ -63,6 +63,10 @@
     margin-top: 30px;
     width:75%;
     
+  }
+  .quest-img {
+    width:75%;
+    margin-top: 30px;
   }
   .img-wrong {
     margin-top: 40px;
