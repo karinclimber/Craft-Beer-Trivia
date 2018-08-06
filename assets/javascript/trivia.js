@@ -56,20 +56,22 @@ $(document).ready(function() {
         correctTally++;
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Correct! The answer is: " + correctAnswers[questionCounter] + "</p>" + imageArray[questionCounter];
         $("#mainArea").html(gameHTML);
-        $("#mainArea").append(imageArray[questionCounter])
+        // $("#mainArea").append(imageArray[questionCounter])
         setTimeout(wait, 4500);  //  change to 4000 or other amount
     }
     
     function generateLoss() {
         incorrectTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='/assets/images/nope.png'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
         setTimeout(wait, 4500); //  change to 4000 or other amount
     }
     
     function generateQuestions() {
+        $("#mainArea").prepend(qimageArray[questionCounter])
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>45</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " +answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
         $("#mainArea").html(gameHTML);
+        
     }
     
     function wait() {
