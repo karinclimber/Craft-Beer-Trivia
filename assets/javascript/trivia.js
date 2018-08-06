@@ -89,7 +89,7 @@ $(document).ready(function() {
     }
     
     function timerWrapper() {
-        theClock = setInterval(thirtySeconds, 1000);
+        theClock = setInterval(thirtySeconds, 1400);
         function thirtySeconds() {
             if (counter === 0) {
                 clearInterval(theClock);
@@ -107,7 +107,7 @@ $(document).ready(function() {
       
         $("#mainArea").html(gameHTML);
         if (correctTally > 4) {
-            $("#mainArea").prepend('<img src="assets/images/squad.png">');
+            $("#mainArea").prepend('<img id="squad" src="assets/images/squad.png">');
         }
         else {
             $("#mainArea").append('<h1>Want to play again?</h1>');
@@ -175,7 +175,7 @@ $(document).ready(function() {
     "C. Like goes-uh", 
     "A. Cold", 
     "D. KBS", 
-    "C. Does anyone actually know? Sometimes they are good, sometimes they are bad. Most times they are funky. Always taste first."];
+    "C. Does anyone actually know?"];
 
     var questionCounter = 0;
     var selecterAnswer;
