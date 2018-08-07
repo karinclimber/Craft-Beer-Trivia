@@ -103,7 +103,7 @@ $(document).ready(function() {
     }
     
     function finalScreen() {
-        $('.timer-p').hide();
+        $('p.timer-p').hide();
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>All done, here's how you did!" + "</p>" + "<p class='summary-correct'>Correct Answers: " + correctTally + "</p>" + "<p>Wrong Answers: " + incorrectTally + "</p>" + "<p>Unanswered: " + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-warning btn-md btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
       
         $("#mainArea").html(gameHTML);
@@ -145,7 +145,7 @@ $(document).ready(function() {
     qimageArray[2] = "<img class='d-block m-x-auto' src='assets/images/magichat.png'>"; 
     qimageArray[3] = "<img class='d-block m-x-auto curl-corner' src='assets/images/somethinglikethatmobile.png'>";  
     qimageArray[4] = "<img class='d-block m-x-auto curl-corner' src='assets/images/goosequestion.png'>"; 
-    qimageArray[5] = "<img class='d-block m-x-auto curl-corner' src='assets/images/coffeehopundone.jpg'>"; 
+    qimageArray[5] = "<img class='d-block m-x-auto curl-corner' src='assets/images/coffehopundone.jpg'>"; 
     qimageArray[6] = "<img class='d-block m-x-auto' src='assets/images/bourbons2.png'>"; 
     qimageArray[7] = "<img class='d-block m-x-auto curl-corner' src='assets/images/farmhouseale.png'>"; 
 
@@ -167,7 +167,7 @@ $(document).ready(function() {
     imageArray[4] = "<img class='d-block m-x-auto curl-corner' src='assets/images/goesuhwin.jpg'>"; 
     imageArray[5] = "<img class='d-block m-x-auto curl-corner' src='assets/images/natescoffe.jpg'>"; 
     imageArray[6] = "<img class='d-block m-x-auto curl-corner' src='assets/images/kbs.png'>"; 
-    imageArray[7] = "<img class='d-block m-x-auto curl-corner' src='assets/images/farmhouswin.png'>"; 
+    imageArray[7] = "<img class='d-block m-x-auto curl-corner' src='assets/images/farmhousewin.png'>"; 
 
     var correctAnswers = 
     [ "B. Legion", 
