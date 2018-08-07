@@ -12,6 +12,7 @@
     /* height: 200px; */
     /* background-image: url("../images/jt2.jpg"); */
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
     background-color: rgba(248, 243, 85, 0);
     opacity: .7;
     margin-top: 50px;
@@ -27,7 +28,11 @@
   }
   .btn {
     width:275px;
+    font-family: 'Montserrat', sans-serif;
     padding:15px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'montserrat';
   
   }
   .main-button-container {
@@ -37,6 +42,7 @@
     /* margin-right: auto; */
   }
   #mainArea {
+    font-family: 'Montserrat', sans-serif;
     margin-top:10px;
     max-width: 75%;
     margin-left: auto;
@@ -60,7 +66,8 @@
 
   .answer {
     /* padding-top: 7px; */
-    height: 150px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
     color: black;
     padding-top: 25px;
     padding-left:15px;
@@ -83,7 +90,7 @@ width:100% !important;
   }
   .quest-img {
     width:100%;
-    height:auto;
+    height:75%;
     margin-top: 10px;
     vertical-align: middle;
   }
@@ -114,7 +121,7 @@ width:100% !important;
     background-size: 100%;
     color: white;
     font-size: 23px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
 

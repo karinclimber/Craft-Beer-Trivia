@@ -139,10 +139,10 @@ $(document).ready(function() {
 
     var qimageArray = new Array(); 
     qimageArray[0] = "<img class='center-block curl-corner' src='assets/images/juicyjay.png'>";
-    qimageArray[1] = "<img class='center-block curl-corner' src='assets/images/dryhopping.jpg'>"; 
+    qimageArray[1] = "<img class='center-block curl-corner' src='assets/images/dryhopping.png'>"; 
     qimageArray[2] = "<img class='center-block' src='assets/images/magichat.png'>"; 
     qimageArray[3] = "<img class='center-block curl-corner' src='assets/images/somethinglikethatmobile.png'>";  
-    qimageArray[4] = "<img class='center-block curl-corner' src='assets/images/gosequestion.png'>"; 
+    qimageArray[4] = "<img class='center-block curl-corner' src='assets/images/goosequestion.png'>"; 
     qimageArray[5] = "<img class='center-block curl-corner' src='assets/images/coffeehopundone.jpg'>"; 
     qimageArray[6] = "<img class='center-block' src='assets/images/bourbons2.png'>"; 
     qimageArray[7] = "<img class='center-block curl-corner' src='assets/images/farmhouseale.png'>"; 
@@ -151,7 +151,7 @@ $(document).ready(function() {
         ["Heist", "Legion", "Sycamore", "Bird Song"], 
         ["Fresh Hopping","Wet Hopping","Sweet Hopping","Dry Hopping"], 
         ["An IPA", "A Porter", "A Hefeweizen", "A Lager"], 
-        ["Frothy Beard Brewing Company", "COAST Brewing Company", "Charles Town Fermentory", "Holy City Brewing"], 
+        ["Frothy Beard Brewing Company", "COAST Brewing Company", "Charles Towne Fermentory", "Holy City Brewing"], 
         ["Rhymes with rose", "Rhymes with rosé", "Like goes-uh", "Like goo-zé"], 
         ["Cold","Hot","Warm","It doesn't matter."], 
         ["Wild Turkey Bourbon Barrel Stout", "CBS", "Dragon's Milk", "KBS"], 
@@ -161,11 +161,11 @@ $(document).ready(function() {
     imageArray[0] = "<img class='center-block curl-corner' src='assets/images/legionlogo.png'>";
     imageArray[1] = "<img class='center-block' src='assets/images/dryhoppingwin.png'>"; 
     imageArray[2] = "<img class='center-block' src='assets/images/circusboyanswer.png'>"; 
-    imageArray[3] = "<img class='center-block curl-corner' src='assets/images/charlestown.jpg'>";  
-    imageArray[4] = "<img class='center-block curl-corner' src='assets/images/goesuganswer.png'>"; 
+    imageArray[3] = "<img class='center-block curl-corner' src='assets/images/charlestownefermentory.png'>";  
+    imageArray[4] = "<img class='center-block curl-corner' src='assets/images/goesuhwin.jpg'>"; 
     imageArray[5] = "<img class='center-block curl-corner' src='assets/images/natescoffe.jpg'>"; 
-    imageArray[6] = "<img class='center-block curl-corner' src='assets/images/kbs2.jpg'>"; 
-    imageArray[7] = "<img class='center-block curl-corner' src='assets/images/farmhouswin.jpg'>"; 
+    imageArray[6] = "<img class='center-block curl-corner' src='assets/images/kbs.png'>"; 
+    imageArray[7] = "<img class='center-block curl-corner' src='assets/images/farmhouswin.png'>"; 
 
     var correctAnswers = 
     [ "B. Legion", 
