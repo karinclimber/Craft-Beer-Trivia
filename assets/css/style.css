@@ -134,7 +134,9 @@ width:100% !important;
   .answer {
     margin-bottom:30px;
     padding:10px;
-
+    width:75%;
+    margin-left: .2em;
+    margin-right:.2em;
   }
   #mainArea {
     margin-top:10px;
@@ -143,4 +145,28 @@ width:100% !important;
     margin-right:.2em;
     margin-bottom:20px;
 }
+img {
+    margin-top: 10px;
+    width:75%;
+    height:50%;
+    
+  }
+  .quest-img {
+    width:100%;
+    height:75%;
+    margin-top: 10px;
+    vertical-align: middle;
+  }
+  .img-wrong {
+    margin-top: 10px;
+    width:75%;
+    height:50%;
+    vertical-align: middle;
+    
+  }
+  img.curl-corner {
+      border-radius:10px;
+      width:75%;
+      height:50%;
+  }
 }

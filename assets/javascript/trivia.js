@@ -173,7 +173,7 @@ $(document).ready(function() {
     [ "B. Legion", 
     "D. Dry Hopping", 
     "C. A Hefeweizen", 
-    "C. Charles Town Fermentory", 
+    "C. Charles Towne Fermentory", 
     "C. Like goes-uh", 
     "A. Cold", 
     "D. KBS", 
