@@ -45,7 +45,7 @@
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .025em;
     margin-top:10px;
-    margin-bottom:40ps !important;
+    margin-bottom:40px !important;
     max-width: 75%;
     margin-left: auto;
     margin-right:auto;
@@ -134,39 +134,35 @@ width:100% !important;
   .answer {
     margin-bottom:30px;
     padding:10px;
-    width:75%;
     margin-left: .2em;
     margin-right:.2em;
   }
   #mainArea {
     margin-top:10px;
-    max-width: 65%;
     margin-left: .2em;
     margin-right:.2em;
-    margin-bottom:20px;
+    margin-bottom:40px;
 }
 img {
     margin-top: 10px;
-    width:75%;
-    height:50%;
-    
+    height:75%
   }
   .quest-img {
-    width:100%;
     height:75%;
     margin-top: 10px;
     vertical-align: middle;
   }
   .img-wrong {
     margin-top: 10px;
-    width:75%;
-    height:50%;
+    height:75%;
     vertical-align: middle;
     
   }
   img.curl-corner {
       border-radius:10px;
-      width:75%;
-      height:50%;
+      height:75%;
+  }
+  .main-button-container{
+      width:auto;
   }
 }
