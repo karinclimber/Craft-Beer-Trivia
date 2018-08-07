@@ -143,7 +143,7 @@ $(document).ready(function() {
     qimageArray[0] = "<img class='d-block m-x-auto curl-corner' src='assets/images/juicyjay.png'>";
     qimageArray[1] = "<img class='d-block m-x-auto curl-corner' src='assets/images/dryhopping.png'>"; 
     qimageArray[2] = "<img class='d-block m-x-auto' src='assets/images/magichat.png'>"; 
-    qimageArray[3] = "<img class='d-block m-x-auto curl-corner' src='assets/images/somethinglikethatmobile.png'>";  
+    qimageArray[3] = "<img class='d-block m-x-auto curl-corner' style='height:50%;' src='assets/images/somethinglikethatmobile.png'>";  
     qimageArray[4] = "<img class='d-block m-x-auto curl-corner' src='assets/images/goosequestion.png'>"; 
     qimageArray[5] = "<img class='d-block m-x-auto curl-corner' src='assets/images/coffehopundone.jpg'>"; 
     qimageArray[6] = "<img class='d-block m-x-auto' src='assets/images/bourbons2.png'>"; 
