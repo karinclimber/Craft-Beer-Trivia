@@ -132,13 +132,10 @@
 
 @media screen and (max-width: 768px) {
   .answer {
-    margin-bottom:30px;
     padding:10px;
-    margin-left: .3em;
-    margin-right:.23em;
   }
   #mainArea {
-    margin-top:30px;
+    margin-top:40px;
     margin-left: .3em;
     margin-right:.3em;
     margin-bottom:40px;
@@ -150,7 +147,7 @@ img {
   
   img.curl-corner {
       border-radius:10px;
-      height:75%;
+      
   }
   .main-button-container{
       width:auto;
