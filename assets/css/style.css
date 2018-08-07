@@ -5,7 +5,7 @@
 
 #top_banner {
  width:100% !important;
- margin: 0px 0px 5px 0px !important;  
+ margin: 0px 0px 0px 0px !important;  
     
 }    
 .jumbotron {
@@ -16,11 +16,11 @@
     background-color: rgba(248, 243, 85, 0);
     opacity: .7;
     margin-top: 0px;
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-bottom: 0px;
     /* margin-right:auto; */
     /* margin-bottom: auto; */
-    width: 85%;
+    width: 75%;
     padding:0px;
   }
   h1 {
@@ -39,7 +39,7 @@
   .main-button-container {
     margin-top: 0px;
     
-    margin-left: auto;
+    /* margin-left: auto; */
     /* margin-right: auto; */
   }
   #mainArea {
@@ -94,7 +94,7 @@
     
   }
   .quest-img {
-    size: 75%;
+    /* size: 75%; */
     margin-top: 30px;
     
   }
