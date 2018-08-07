@@ -160,4 +160,10 @@ img {
   .main-button-container{
       width:auto;
   }
+
+.container {
+    margin-right:10px;
+}
+
+
 }
