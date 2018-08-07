@@ -73,7 +73,7 @@ $(document).ready(function() {
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>" +answerArray[questionCounter][0] + "</p><p class='answer'>"+answerArray[questionCounter][1]+"</p><p class='answer'>"+answerArray[questionCounter][2]+"</p><p class='answer'>"+answerArray[questionCounter][3]+"</p>";
         
         $("#mainArea").html(gameHTML);
-        $("#mainArea").prepend("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
+        $("#mainArea").append("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
     }
     
     function wait() {
@@ -147,7 +147,7 @@ $(document).ready(function() {
     qimageArray[4] = "<img class='d-block m-x-auto curl-corner' src='assets/images/goosequestion.png'>"; 
     qimageArray[5] = "<img class='d-block m-x-auto curl-corner' src='assets/images/coffehopundone.jpg'>"; 
     qimageArray[6] = "<img class='d-block m-x-auto' src='assets/images/bourbons2.png'>"; 
-    qimageArray[7] = "<img class='d-block m-x-auto curl-corner' src='assets/images/farmhouseale.png'>"; 
+    qimageArray[7] = "<img class='d-block m-x-auto curl-corner' src='assets/images/farmhouseale.jpg'>"; 
 
     var answerArray = [
         ["Heist", "Legion", "Sycamore", "Bird Song"], 
