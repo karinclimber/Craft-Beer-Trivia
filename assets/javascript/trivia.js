@@ -49,7 +49,7 @@ $(document).ready(function() {
         unansweredTally++;
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='d-block m-x-auto curl-corner img-wrong' src='assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
-        setTimeout(wait, 5000);  //  change to 4000 or other amount
+        setTimeout(wait, 3000);  //  change to 4000 or other amount
     }
     
     function generateWin() {
@@ -70,7 +70,7 @@ $(document).ready(function() {
     function generateQuestions() {
        
         
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " +answerArray[questionCounter][0] + "</p><p class='answer'>B. "+answerArray[questionCounter][1]+"</p><p class='answer'>C. "+answerArray[questionCounter][2]+"</p><p class='answer'>D. "+answerArray[questionCounter][3]+"</p>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>" +answerArray[questionCounter][0] + "</p><p class='answer'>"+answerArray[questionCounter][1]+"</p><p class='answer'>"+answerArray[questionCounter][2]+"</p><p class='answer'>"+answerArray[questionCounter][3]+"</p>";
         
         $("#mainArea").html(gameHTML);
         $("#mainArea").prepend("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
@@ -170,14 +170,14 @@ $(document).ready(function() {
     imageArray[7] = "<img class='d-block m-x-auto curl-corner' src='assets/images/farmhousewin.png'>"; 
 
     var correctAnswers = 
-    [ "B. Legion", 
-    "D. Dry Hopping", 
-    "C. A Hefeweizen", 
-    "C. Charles Towne Fermentory", 
-    "C. Like goes-uh", 
-    "A. Cold", 
-    "D. KBS", 
-    "C. Does anyone actually know?"];
+    [ "Legion", 
+    "Dry Hopping", 
+    "A Hefeweizen", 
+    "Charles Towne Fermentory", 
+    "Like goes-uh", 
+    "Cold", 
+    "KBS", 
+    "Does anyone actually know?"];
 
     var questionCounter = 0;
     var selecterAnswer;
