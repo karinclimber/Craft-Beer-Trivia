@@ -47,7 +47,7 @@ $(document).ready(function() {
     
     function timeoutLoss() {
         unansweredTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block curl-corner img-wrong' src='assets/images/nope.png'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='d-block m-x-auto curl-corner img-wrong' src='assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
         setTimeout(wait, 3000);  //  change to 4000 or other amount
     }
@@ -62,7 +62,7 @@ $(document).ready(function() {
     
     function generateLoss() {
         incorrectTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block curl-corner img-wrong' src='assets/images/nope.png'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='d-block m-x-auto curl-corner img-wrong' src='assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
         setTimeout(wait, 3000); //  change to 4000 or other amount
     }
@@ -89,7 +89,7 @@ $(document).ready(function() {
     }
     
     function timerWrapper() {
-        theClock = setInterval(thirtySeconds, 1400);
+        theClock = setInterval(thirtySeconds, 2000);
         function thirtySeconds() {
             if (counter === 0) {
                 clearInterval(theClock);
@@ -108,7 +108,7 @@ $(document).ready(function() {
       
         $("#mainArea").html(gameHTML);
         if (correctTally > 4) {
-            $("#mainArea").prepend('<img id="squad" src="assets/images/squad.png">');
+            $("#mainArea").prepend('<img class="d-block m-x-auto" id="squad" src="assets/images/squad.png">');
         }
         else {
             $("#mainArea").append('<h1>Want to play again?</h1>');
@@ -140,14 +140,14 @@ $(document).ready(function() {
 
 
     var qimageArray = new Array(); 
-    qimageArray[0] = "<img class='center-block curl-corner' src='assets/images/juicyjay.png'>";
-    qimageArray[1] = "<img class='center-block curl-corner' src='assets/images/dryhopping.png'>"; 
-    qimageArray[2] = "<img class='center-block' src='assets/images/magichat.png'>"; 
-    qimageArray[3] = "<img class='center-block curl-corner' src='assets/images/somethinglikethatmobile.png'>";  
-    qimageArray[4] = "<img class='center-block curl-corner' src='assets/images/goosequestion.png'>"; 
-    qimageArray[5] = "<img class='center-block curl-corner' src='assets/images/coffeehopundone.jpg'>"; 
-    qimageArray[6] = "<img class='center-block' src='assets/images/bourbons2.png'>"; 
-    qimageArray[7] = "<img class='center-block curl-corner' src='assets/images/farmhouseale.png'>"; 
+    qimageArray[0] = "<img class='d-block m-x-auto curl-corner' src='assets/images/juicyjay.png'>";
+    qimageArray[1] = "<img class='d-block m-x-auto curl-corner' src='assets/images/dryhopping.png'>"; 
+    qimageArray[2] = "<img class='d-block m-x-auto' src='assets/images/magichat.png'>"; 
+    qimageArray[3] = "<img class='d-block m-x-auto curl-corner' src='assets/images/somethinglikethatmobile.png'>";  
+    qimageArray[4] = "<img class='d-block m-x-auto curl-corner' src='assets/images/goosequestion.png'>"; 
+    qimageArray[5] = "<img class='d-block m-x-auto curl-corner' src='assets/images/coffeehopundone.jpg'>"; 
+    qimageArray[6] = "<img class='d-block m-x-auto' src='assets/images/bourbons2.png'>"; 
+    qimageArray[7] = "<img class='d-block m-x-auto curl-corner' src='assets/images/farmhouseale.png'>"; 
 
     var answerArray = [
         ["Heist", "Legion", "Sycamore", "Bird Song"], 
@@ -160,14 +160,14 @@ $(document).ready(function() {
         ["A hop-heavy beer with bitter, floral, earthy, citrusy, piney, and fruity flavors.","A dark beer that includes roasted malt or roasted barley, hops, water and yeast.","Does anyone actually know?","A beer which has an intentionally acidic, tart or sour taste."], ];
 
     var imageArray = new Array(); 
-    imageArray[0] = "<img class='center-block curl-corner' src='assets/images/legionlogo.png'>";
-    imageArray[1] = "<img class='center-block' src='assets/images/dryhoppingwin.png'>"; 
-    imageArray[2] = "<img class='center-block' src='assets/images/circusboyanswer.png'>"; 
-    imageArray[3] = "<img class='center-block curl-corner' src='assets/images/charlestownefermentory.png'>";  
-    imageArray[4] = "<img class='center-block curl-corner' src='assets/images/goesuhwin.jpg'>"; 
-    imageArray[5] = "<img class='center-block curl-corner' src='assets/images/natescoffe.jpg'>"; 
-    imageArray[6] = "<img class='center-block curl-corner' src='assets/images/kbs.png'>"; 
-    imageArray[7] = "<img class='center-block curl-corner' src='assets/images/farmhouswin.png'>"; 
+    imageArray[0] = "<img class='d-block m-x-auto curl-corner' src='assets/images/legionlogo.png'>";
+    imageArray[1] = "<img class='d-block m-x-auto' src='assets/images/dryhoppingwin.png'>"; 
+    imageArray[2] = "<img class='d-block m-x-auto' src='assets/images/circusboyanswer.png'>"; 
+    imageArray[3] = "<img class='d-block m-x-auto curl-corner' src='assets/images/charlestownefermentory.png'>";  
+    imageArray[4] = "<img class='d-block m-x-auto curl-corner' src='assets/images/goesuhwin.jpg'>"; 
+    imageArray[5] = "<img class='d-block m-x-auto curl-corner' src='assets/images/natescoffe.jpg'>"; 
+    imageArray[6] = "<img class='d-block m-x-auto curl-corner' src='assets/images/kbs.png'>"; 
+    imageArray[7] = "<img class='d-block m-x-auto curl-corner' src='assets/images/farmhouswin.png'>"; 
 
     var correctAnswers = 
     [ "B. Legion", 
