@@ -134,10 +134,11 @@
 @media screen and (max-width: 768px) {
     .jumbotron {
         margin-top: 0px;
-        padding:0px;
+        padding-top:0px;
+        padding-bottom: 5px;
     }
   .answer {
-      padding:5px;
+      padding:5px 5px 5px 10px;
       height:auto;
       width:auto;
     margin-top: 30px;
