@@ -43,7 +43,9 @@
   }
   #mainArea {
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: .025em;
     margin-top:10px;
+    margin-bottom:40ps !important;
     max-width: 75%;
     margin-left: auto;
     margin-right:auto;
@@ -102,6 +104,8 @@ width:100% !important;
   }
   img.curl-corner {
       border-radius:10px;
+      width:75%;
+      height:75%
   }
   .first-answer {
     margin-top: 40px;
