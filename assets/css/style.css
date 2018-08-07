@@ -44,6 +44,7 @@
   #mainArea {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .025em;
+    width:600px;
     margin-top:10px;
     margin-bottom:100px !important;
     max-width: 100%;
@@ -91,15 +92,15 @@ width:100% !important;
     
   }
   .quest-img {
-    width:100%;
+    width:75%;
     height:75%;
-    margin-top: 10px;
-    vertical-align: middle;
+    margin-top: 20px;
+    
   }
   .img-wrong {
     margin-top: 10px;
     width:100%;
-    vertical-align: middle;
+    
     
   }
   img.curl-corner {

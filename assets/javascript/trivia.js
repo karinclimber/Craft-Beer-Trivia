@@ -14,7 +14,7 @@ $(document).ready(function() {
         event.preventDefault();  // added line to test issue on GitHub Viewer
         // clickSound.play();
             $('.jumbotron').hide();
-            
+            $('#top_banner').hide();
         generateQuestions();
     
         timerWrapper();
