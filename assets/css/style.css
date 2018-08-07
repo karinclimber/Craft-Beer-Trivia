@@ -1,4 +1,8 @@
 
+.start-button, .btn-warning {
+    background-color:#FEBF3B;
+}
+
 #top_banner {
  width:100% !important;
  margin: 0px 0px 5px 0px !important;  
@@ -46,16 +50,17 @@
   }
   
   .answer:hover {
-    background:rgb(126, 125, 125);
+    background:#FEBF3B;
   }
 
   p {
     font-size: 24px;
     font-weight: 500;
   }
+
   .answer {
     /* padding-top: 7px; */
-    height: 85px;
+    height: 150px;
     color: black;
     padding-top: 25px;
     padding-left:15px;
@@ -73,20 +78,24 @@ width:100% !important;
 
   img {
     margin-top: 10px;
-    width:75%;
+    width:100%;
     
   }
   .quest-img {
-    width:75%;
+    width:100%;
     height:auto;
     margin-top: 10px;
+    vertical-align: middle;
   }
   .img-wrong {
     margin-top: 10px;
-    width:75%;
+    width:100%;
+    vertical-align: middle;
     
   }
-  
+  img.curl-corner {
+      border-radius:10px;
+  }
   .first-answer {
     margin-top: 40px;
   }

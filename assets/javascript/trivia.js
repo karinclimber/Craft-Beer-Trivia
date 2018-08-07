@@ -47,7 +47,7 @@ $(document).ready(function() {
     
     function timeoutLoss() {
         unansweredTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/nope.png'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block curl-corner img-wrong' src='assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
         setTimeout(wait, 3000);  //  change to 4000 or other amount
     }
@@ -62,7 +62,7 @@ $(document).ready(function() {
     
     function generateLoss() {
         incorrectTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/nope.png'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block curl-corner img-wrong' src='assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
         setTimeout(wait, 3000); //  change to 4000 or other amount
     }
@@ -138,14 +138,14 @@ $(document).ready(function() {
 
 
     var qimageArray = new Array(); 
-    qimageArray[0] = "<img class='center-block' src='assets/images/juicyjay.png'>";
-    qimageArray[1] = "<img class='center-block' src='assets/images/dryhopping.jpg'>"; 
+    qimageArray[0] = "<img class='center-block curl-corner' src='assets/images/juicyjay.png'>";
+    qimageArray[1] = "<img class='center-block curl-corner' src='assets/images/dryhopping.jpg'>"; 
     qimageArray[2] = "<img class='center-block' src='assets/images/magichat.png'>"; 
-    qimageArray[3] = "<img class='center-block' src='assets/images/somethinglikethatbefore-01.png'>";  
-    qimageArray[4] = "<img class='center-block' src='assets/images/gose5.png'>"; 
-    qimageArray[5] = "<img class='center-block' src='assets/images/coffeehop.jpg'>"; 
+    qimageArray[3] = "<img class='center-block curl-corner' src='assets/images/somethinglikethatmobile.png'>";  
+    qimageArray[4] = "<img class='center-block curl-corner' src='assets/images/gosequestion.png'>"; 
+    qimageArray[5] = "<img class='center-block curl-corner' src='assets/images/coffeehopundone.jpg'>"; 
     qimageArray[6] = "<img class='center-block' src='assets/images/bourbons2.png'>"; 
-    qimageArray[7] = "<img class='center-block' src='assets/images/farmhouseale.png'>"; 
+    qimageArray[7] = "<img class='center-block curl-corner' src='assets/images/farmhouseale.png'>"; 
 
     var answerArray = [
         ["Heist", "Legion", "Sycamore", "Bird Song"], 
@@ -158,14 +158,14 @@ $(document).ready(function() {
         ["A hop-heavy beer with bitter, floral, earthy, citrusy, piney, and fruity flavors.","A dark beer that includes roasted malt or roasted barley, hops, water and yeast.","Does anyone actually know?","A beer which has an intentionally acidic, tart or sour taste."], ];
 
     var imageArray = new Array(); 
-    imageArray[0] = "<img class='center-block' src='assets/images/legionlogo.png'>";
+    imageArray[0] = "<img class='center-block curl-corner' src='assets/images/legionlogo.png'>";
     imageArray[1] = "<img class='center-block' src='assets/images/dryhoppingwin.png'>"; 
     imageArray[2] = "<img class='center-block' src='assets/images/circusboyanswer.png'>"; 
-    imageArray[3] = "<img class='center-block' src='assets/images/charlestown.jpg'>";  
-    imageArray[4] = "<img class='center-block' src='assets/images/goesuganswer.png'>"; 
-    imageArray[5] = "<img class='center-block' src='assets/images/coffeestout.jpg'>"; 
-    imageArray[6] = "<img class='center-block' src='assets/images/kbs2.jpg'>"; 
-    imageArray[7] = "<img class='center-block' src='assets/images/farmhouswin.jpg'>"; 
+    imageArray[3] = "<img class='center-block curl-corner' src='assets/images/charlestown.jpg'>";  
+    imageArray[4] = "<img class='center-block curl-corner' src='assets/images/goesuganswer.png'>"; 
+    imageArray[5] = "<img class='center-block curl-corner' src='assets/images/natescoffe.jpg'>"; 
+    imageArray[6] = "<img class='center-block curl-corner' src='assets/images/kbs2.jpg'>"; 
+    imageArray[7] = "<img class='center-block curl-corner' src='assets/images/farmhouswin.jpg'>"; 
 
     var correctAnswers = 
     [ "B. Legion", 
