@@ -92,9 +92,8 @@ width:100% !important;
     
   }
   .quest-img {
-    width:75%;
-    height:75%;
-    margin-top: 20px;
+    size: 75%;
+    margin-top: 30px;
     
   }
   .img-wrong {
@@ -106,8 +105,9 @@ width:100% !important;
   img.curl-corner {
       border-radius:10px;
   }
+
   .first-answer {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   
   .reset-button {
