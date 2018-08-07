@@ -64,7 +64,7 @@ $(document).ready(function() {
         incorrectTally++;
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='d-block m-x-auto curl-corner img-wrong' src='assets/images/nope.png'>";
         $("#mainArea").html(gameHTML);
-        setTimeout(wait, 5000); //  change to 4000 or other amount
+        setTimeout(wait, 3000); //  change to 4000 or other amount
     }
     
     function generateQuestions() {
@@ -89,7 +89,7 @@ $(document).ready(function() {
     }
     
     function timerWrapper() {
-        theClock = setInterval(thirtySeconds, 5000);
+        theClock = setInterval(thirtySeconds, 3000);
         function thirtySeconds() {
             if (counter === 0) {
                 clearInterval(theClock);
@@ -103,7 +103,7 @@ $(document).ready(function() {
     }
     
     function finalScreen() {
-        $('p.timer-p').hide();
+        $('p.textcenter.timer-p').hide();
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>All done, here's how you did!" + "</p>" + "<p class='summary-correct'>Correct Answers: " + correctTally + "</p>" + "<p>Wrong Answers: " + incorrectTally + "</p>" + "<p>Unanswered: " + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-warning btn-md btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
       
         $("#mainArea").html(gameHTML);

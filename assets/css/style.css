@@ -135,7 +135,8 @@
     .jumbotron {
         margin-top: 0px;
         padding-top:0px;
-        padding-bottom: 5px;
+        margin-bottom: 10px;
+        text-align:center;
     }
   .answer {
       padding:5px 5px 5px 10px;
