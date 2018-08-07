@@ -15,12 +15,13 @@
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(248, 243, 85, 0);
     opacity: .7;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: auto;
     margin-bottom: 0px;
     /* margin-right:auto; */
     /* margin-bottom: auto; */
     width: 85%;
+    padding:0px;
   }
   h1 {
     font-size: 28px;
@@ -131,6 +132,10 @@
 
 
 @media screen and (max-width: 768px) {
+    .jumbotron {
+        margin-top: 0px;
+        padding:0px;
+    }
   .answer {
     margin-top: 30px;
     margin-bottom:10px;
