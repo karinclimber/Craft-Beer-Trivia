@@ -73,7 +73,7 @@ $(document).ready(function() {
         gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>" +answerArray[questionCounter][0] + "</p><p class='answer'>"+answerArray[questionCounter][1]+"</p><p class='answer'>"+answerArray[questionCounter][2]+"</p><p class='answer'>"+answerArray[questionCounter][3]+"</p>";
         
         $("#mainArea").html(gameHTML);
-        $("#mainArea").append("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
+        $("#mainArea").prepend("<p class='quest-img'>" + qimageArray[questionCounter] + "</p>");
     }
     
     function wait() {
